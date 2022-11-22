@@ -50,7 +50,7 @@ function registrasi($data){
     mysqli_query($conn,"INSERT INTO pengguna VALUES ('', '$first_name', '$last_name', '$username', '$password', '$birthdate', '$sex', '$gambar')");
     return 1;
 }
-
+// testing
 function loginuser($data){
     global $conn;
     $username = $data["username"];
